@@ -1,4 +1,4 @@
 [build]
-  base = "frontend"
-  publish = "dist"    # relative to the base directory
+  base = "frontend" # <-- 프런트엔드 코드가 담긴 폴더명으로 변경
+  publish = "frontend/dist" # publish 경로도 base 폴더를 기준으로 수정
   command = "npm run build"
