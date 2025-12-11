@@ -1,4 +1,4 @@
 [build]
-  base = ""
-  publish = "frontend/dist"
+  base = "frontend"
+  publish = "dist"    # relative to the base directory
   command = "npm run build"
